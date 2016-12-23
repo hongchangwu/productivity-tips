@@ -24,3 +24,10 @@ For [Git v1.7.0](https://github.com/gitster/git/blob/master/Documentation/RelNot
 ```
 git push origin --delete <branch>
 ```
+
+## Merging
+
+### Find common ancestor of two commits
+```
+git merge-base <commit> <commit>
+```
