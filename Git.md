@@ -20,7 +20,7 @@ git push origin <SHA1>:refs/heads/<branch>
 git push origin :<branch>
 ```
 
-For Git v1.7.0 or later, a syntatic sugar is added:
+For [Git v1.7.0](https://github.com/gitster/git/blob/master/Documentation/RelNotes/1.7.0.txt) or later, a syntatic sugar is added:
 ```
 git push origin --delete <branch>
 ```
