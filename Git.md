@@ -31,3 +31,15 @@ git push origin --delete <branch>
 ```
 git merge-base <commit> <commit>
 ```
+
+## Misc
+
+### Check if a local branch exists
+```
+git show-ref refs/heads/<branch> --quiet --verify
+```
+
+### Check if a remote branch exists
+```
+git ls-remote --exit-code --heads origin refs/heads/<branch> &>/dev/null
+```
