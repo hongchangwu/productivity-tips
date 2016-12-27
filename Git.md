@@ -43,3 +43,8 @@ git show-ref refs/heads/<branch> --quiet --verify
 ```
 git ls-remote --exit-code --heads origin refs/heads/<branch> &>/dev/null
 ```
+
+### Find the root commit
+```
+git rev-list --max-parents=0 HEAD
+```
