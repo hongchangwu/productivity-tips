@@ -16,6 +16,14 @@
 - `:bd!|e [file]` Open `file` in current buffer
 - `:N,Mbd` Delete buffers from `N` to `M`
 
+## Folds
+- `zo` Open one fold
+- `zc` Close one fold
+- `zr` Reduce folding
+- `zm` Fold more
+- `zR` Open all folds
+- `zM` Close all folds
+
 ## Diff mode
 - `[c` Jump to the previous conflict
 - `]c` Jump to the next conflict
