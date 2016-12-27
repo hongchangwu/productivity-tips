@@ -16,6 +16,14 @@
 - `:bd!|e [file]` Open `file` in current buffer
 - `:N,Mbd` Delete buffers from `N` to `M`
 
+## Windows
+- `Ctrl-W s` Create a horizontal split
+- `Ctrl-W v` Create a vertical split
+- `Ctrl-W h` Go to left window
+- `Ctrl-W l` Go to right window
+- `Ctrl-W k` Go to up window
+- `Ctrl-W j` Go to down window
+
 ## Folds
 - `zo` Open one fold
 - `zc` Close one fold
