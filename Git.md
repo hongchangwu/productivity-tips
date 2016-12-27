@@ -34,6 +34,18 @@ git merge-base <commit> <commit>
 
 ## Misc
 
+### Find the name of the current checkouted branch
+
+```
+git symbolic-ref --short HEAD
+```
+
+or
+
+```
+git rev-parse --abbrev-ref HEAD
+```
+
 ### Check if a local branch exists
 ```
 git show-ref refs/heads/<branch> --quiet --verify
