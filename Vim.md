@@ -15,3 +15,9 @@
 - `:e` Reload current bufffer
 - `:bd!|e [file]` Open `file` in current buffer
 - `:N,Mbd` Delete buffers from `N` to `M`
+
+## Diff mode
+- `[c` Jump to the previous conflict
+- `]c` Jump to the next conflict
+- `:diffg [bufspec]` Copy change from `[bufspec]` the current buffer
+- `:diffp [bufspec]` Copy change from the current buffer to `[bufspec]`
