@@ -17,6 +17,9 @@
 - `:N,Mbd` Delete buffers from `N` to `M`
 
 ## Windows
+- `:q` Quit the current window
+- `:q!` Quit the current window, discard any changes
+- `:on` Make the current window the only one
 - `Ctrl-W s` Create a horizontal split
 - `Ctrl-W v` Create a vertical split
 - `Ctrl-W h` Go to left window
