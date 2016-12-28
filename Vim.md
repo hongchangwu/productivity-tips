@@ -20,6 +20,7 @@
 ## Windows
 - `:q` Quit the current window
 - `:q!` Quit the current window, discard any changes
+- `:clo` Close the current window, unless it is the last one
 - `:on` Make the current window the only one
 - `Ctrl-W s` Create a horizontal split
 - `Ctrl-W v` Create a vertical split
