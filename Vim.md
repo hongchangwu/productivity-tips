@@ -12,6 +12,7 @@
 - `G` Go to the last line
 
 ## Buffers
+- `:ls` List buffers
 - `:e` Reload current bufffer
 - `:bd!|e [file]` Open `file` in current buffer
 - `:N,Mbd` Delete buffers from `N` to `M`
