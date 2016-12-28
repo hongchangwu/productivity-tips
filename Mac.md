@@ -11,3 +11,8 @@
 2. in **iTerm2**, under **Preferences -> Keys**, add a key mapping for the escape sequence:
 
 ![iTerm2 Screenshot](https://s27.postimg.org/lderob5eb/Screen_Shot_2016_12_26_at_3_02_04_PM.png)
+
+## Xcode
+
+1. Install Xcode from the App Store.
+2. `sudo xcode-select -s /Applications/Xcode.app/Contents/Developer`
