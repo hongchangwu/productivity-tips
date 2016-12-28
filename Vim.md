@@ -42,4 +42,4 @@
 - `]c` Jump to the next conflict
 - `:diffg [bufspec]` Copy change from `[bufspec]` the current buffer
 - `:diffp [bufspec]` Copy change from the current buffer to `[bufspec]`
-- `:'<,'>diffg` Copy change in the selected region
+- `:'<,'>diffg` `:'<,'>diffp` Copy change in the selected region
