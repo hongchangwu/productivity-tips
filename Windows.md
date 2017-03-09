@@ -16,13 +16,13 @@ $profile
 To test if the the profile exists
 
 ```powershell
-test-path $profile
+Test-Path $profile
 ```
 
 To create a profile
 
 ```powershell
-new-item -path $profile -itemtype file -force
+New-Item -Path $profile -ItemType file -Force
 ```
 
 The open the profile
