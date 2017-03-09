@@ -25,7 +25,7 @@ To create a profile
 New-Item -Path $profile -ItemType file -Force
 ```
 
-The open the profile
+To open the profile
 
 ```powershell
 notepad $profile
