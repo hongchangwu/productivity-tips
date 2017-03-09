@@ -16,3 +16,7 @@
 
 1. Install Xcode from the App Store.
 2. `sudo xcode-select -s /Applications/Xcode.app/Contents/Developer`
+
+# Keyboard Shortcuts
+
+* Switch between panes of the same app: `` Command-` ``
