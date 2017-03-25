@@ -29,6 +29,14 @@
 - `Ctrl-W k` Go to up window
 - `Ctrl-W j` Go to down window
 
+## Commands
+To search through command history, enter the prefix of your previous command and push \<Up\>.
+
+To configure command history size
+```
+:set history=1000
+```
+
 ## Folds
 - `zo` Open one fold
 - `zc` Close one fold
