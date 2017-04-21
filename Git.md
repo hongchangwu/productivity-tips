@@ -34,6 +34,12 @@ git merge-base <commit> <commit>
 
 ## Misc
 
+### Find the root directory
+
+```
+git rev-parse --show-toplevel
+```
+
 ### Find the name of the current checkouted branch
 
 ```
