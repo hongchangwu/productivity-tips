@@ -66,3 +66,8 @@ git ls-remote --exit-code --heads origin refs/heads/<branch> &>/dev/null
 ```
 git rev-list --max-parents=0 HEAD
 ```
+
+### Remove the first commit
+```
+git update-ref -d HEAD
+```
