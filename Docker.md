@@ -34,6 +34,12 @@ Cleanup unused volumes:
 docker run -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/docker:/var/lib/docker --privileged dockerinpractice/docker-cleanup-volumes
 ```
 
+Execute commands on a running container:
+
+```
+docker exec -i -t name /bin/bash
+```
+
 ## Portainer (formerly known as DockerUI)
 
 ### Manage a local Docker engine
