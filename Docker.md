@@ -27,3 +27,9 @@ Remove all containers that have exited:
 ```
 docker ps -a -q --filter status=exited | xargs --no-run-if-empty docker rm
 ```
+
+Cleanup unused volumes:
+
+```
+docker run -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/docker:/var/lib/docker --privileged dockerinpractice/docker-cleanup-volumes
+```
