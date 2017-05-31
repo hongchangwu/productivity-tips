@@ -1,5 +1,6 @@
 # Productivity tips
 
+- [Docker](Docker.md)
 - [Emacs](Emacs.md)
 - [Git](Git.md)
 - [GitHub](GitHub.md)
