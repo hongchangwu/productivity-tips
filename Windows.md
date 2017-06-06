@@ -30,3 +30,9 @@ To open the profile
 ```powershell
 notepad $profile
 ```
+
+## Ignore SSL certificate
+
+```powershell
+[System.Net.ServicePointManager]::ServerCertificateValidationCallback = {$true}
+```
