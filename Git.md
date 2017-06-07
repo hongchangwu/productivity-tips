@@ -40,7 +40,7 @@ git merge-base <commit> <commit>
 git rev-parse --show-toplevel
 ```
 
-### Find the name of the current checkouted branch
+### Find the name of the current branch
 
 ```
 git symbolic-ref --short HEAD
