@@ -32,6 +32,14 @@ git push origin --delete <branch>
 git merge-base <commit> <commit>
 ```
 
+## Rebasing
+
+### Rebase against the root commit
+
+```
+git rebase -i --root
+```
+
 ## Misc
 
 ### Find the root directory
