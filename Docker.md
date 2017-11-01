@@ -14,7 +14,7 @@ docker build --no-cache .
 sudo addgroup -a username docker
 ```
 
-### Remove containers
+###  Containers
 
 Remove all containers:
 
@@ -38,6 +38,14 @@ Execute commands on a running container:
 
 ```
 docker exec -i -t name /bin/bash
+```
+
+### Imagse
+
+Remove dangling images:
+
+```
+docker rmi $(docker images -q -f dangling=true)
 ```
 
 ## Portainer (formerly known as DockerUI)
