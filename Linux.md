@@ -23,3 +23,9 @@ For XFCE
 ```
 yum groupinstall "X Window System" XFCE
 ```
+
+## Escape quotes in shell
+
+```
+echo $'\'single quote phrase\' "double quote phrase"'
+```
