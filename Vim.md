@@ -29,6 +29,12 @@
 - `Ctrl-W k` Go to up window
 - `Ctrl-W j` Go to down window
 
+## Scrolling
+
+- `z<CR>` or `zt` Put current line to top of screen (`<CR>` == Enter)
+- `z.` or `zz` Put current line to center of screen
+- `z-` or `zb` Put current line to bottom of screen
+
 ## Commands
 To search through command history, enter the prefix of your previous command and push \<Up\>.
 
