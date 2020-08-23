@@ -57,3 +57,13 @@ To configure command history size
 - `:diffg [bufspec]` Copy change from `[bufspec]` the current buffer
 - `:diffp [bufspec]` Copy change from the current buffer to `[bufspec]`
 - `:'<,'>diffg` `:'<,'>diffp` Copy change in the selected region
+
+### Config
+
+Use the same config for both Vim and Neovim:
+
+```sh
+mkdir -p ~/.config/
+ln -s ~/.vim ~/.config/nvim 
+ln -s ~/.vimrc ~/.config/nvim/init.vim 
+````
